@@ -50,7 +50,7 @@ def get_url_data(hostname):
 
 def create_db(conn):
     cur = conn.cursor()
-    cur.execute("DROP TABLE url")
+    cur.execute("DROP TABLE IF EXISTS url")
     cur.execute(''' SELECT count(*) FROM sqlite_master WHERE type='table' AND name='url' ''')
     if not cur.fetchone()[0]:
         cur.execute('CREATE TABLE url (url TEXT, port TEXT, query TEXT)')
