@@ -1,7 +1,7 @@
 Steps to start and run tests
 Prereq-
 Make sure you have python, pip and sqllite installed. 
-If you have recently installed python3 sqllite will be already installed with it.
+If you have recently installed python3, sqllite and urllib will be already installed with it. If not install it.
 
 1) install requirements by runnin pip install -r requirements.txt .
 In case this fails just open requirements.txt and install all packages in it.
