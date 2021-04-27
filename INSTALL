@@ -1,0 +1,9 @@
+Steps to start and run tests
+Prereq-
+Make sure you have python, pip and sqllite installed. 
+If you have recently installed python3 sqllite will be already installed with it.
+
+1) install requirements by runnin pip install -r requirements.txt .
+In case this fails just open requirements.txt and install all packages in it.
+2) Start the server by python running 'python .\web_api.py' from api directory
+2) To run tests go onto tests directory and run 'pytest -q .\urltest.py -s'
